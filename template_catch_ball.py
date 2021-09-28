@@ -28,7 +28,7 @@ player=pygame.Rect(100,310,60,90)
 
 count=0
 
-def eval_genomes(genomes, config): #######
+def eval_genomes(genomes, config): 
 
     # Declare the variable 'generation' as 'global'
     
@@ -42,14 +42,14 @@ def eval_genomes(genomes, config): #######
 
         count_font=pygame.font.Font('freesansbold.ttf', 20)
 
-        # Initialize 'genome.fitness' to zero
+        # Create a variable 'genome.fitness' and initialize it to zero
         
 
         speed=0
         
         while True:
 
-            # Increment the genome's fitness
+            # Increment the genome's fitness by 0.1
             
 
             screen.blit(background_image,[0,0])
@@ -97,4 +97,4 @@ config = neat.config.Config(neat.DefaultGenome, neat.DefaultReproduction,neat.De
 # Create the population using 'Population()' function and pass 'config' as an argument  to it
 p = neat.
 # Run the 'eval_genomes()' function to evaluate the fitness for 7 generations
-winner = p.run(   )
+winner = p.run(            )
