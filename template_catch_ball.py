@@ -53,12 +53,14 @@ def eval_genomes(genomes, config): #######
             
 
             screen.blit(background_image,[0,0])
-            #event loop to check which key is print
+            
+            # Checking whether 'quit' event occurs
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     pygame.quit()
                     sys.exit()
-                #use events to move the player
+                    
+                # Checking for events and moving accordingly
                 if event.type==pygame.KEYDOWN:
                     if event.key==pygame.K_RIGHT:
                         speed=5
