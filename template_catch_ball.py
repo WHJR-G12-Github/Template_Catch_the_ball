@@ -33,7 +33,7 @@ def eval_genomes(genomes, config): #######
     # Declare the variable 'generation' as 'global'
     
 
-    # Increment the value of generation
+    # Increment the value of 'generation'
     
 
     for gid,genome in genomes: 
