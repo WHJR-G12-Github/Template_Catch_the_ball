@@ -1,7 +1,7 @@
 import pygame, sys, random
 import neat
 
-#initialize pygame to  use it's functions
+# Initializing pygame to  use it's functions
 pygame.init()
 clock=pygame.time.Clock()
 
